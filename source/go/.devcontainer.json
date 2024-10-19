@@ -1,7 +1,7 @@
 {
-    "name": "${templateOption:projectName}",
+    "name": "Go Project",
     "image": "ghcr.io/marcocarmonadev/devcontainers/go:${templateOption:imageVariant}",
     "runArgs": [
-        "--name=${templateOption:projectName}-devcontainer"
+        "--name=go-project-devcontainer"
     ]
 }
