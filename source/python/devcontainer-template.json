@@ -1,0 +1,23 @@
+{
+    "id": "python",
+    "version": "1.0.0",
+    "name": "python-devcontainer-template",
+    "description": "A python devcontainer template for development.",
+    "options": {
+        "projectName": {
+            "type": "string",
+            "description": "Project name",
+            "default": "python-project"
+        },
+        "imageVariant": {
+            "type": "string",
+            "description": "Variant of python",
+            "enum": [
+                "latest",
+                "3.12",
+                "3.13"
+            ],
+            "default": "3.12"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "id": "go",
+    "version": "1.0.0",
+    "name": "go-devcontainer-template",
+    "description": "A go devcontainer template for development.",
+    "options": {
+        "projectName": {
+            "type": "string",
+            "description": "Project name",
+            "default": "go-project"
+        },
+        "imageVariant": {
+            "type": "string",
+            "description": "Variant of go",
+            "enum": [
+                "latest"
+            ],
+            "default": "latest"
+        }
+    }
+}

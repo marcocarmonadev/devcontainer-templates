@@ -1,0 +1,22 @@
+{
+    "id": "node",
+    "version": "1.0.0",
+    "name": "node-devcontainer-template",
+    "description": "A node devcontainer template for development.",
+    "options": {
+        "projectName": {
+            "type": "string",
+            "description": "Project name",
+            "default": "node-project"
+        },
+        "imageVariant": {
+            "type": "string",
+            "description": "Variant of node",
+            "enum": [
+                "latest",
+                "lts"
+            ],
+            "default": "lts"
+        }
+    }
+}
