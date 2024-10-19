@@ -4,14 +4,6 @@
     "name": "go-devcontainer-template",
     "description": "A go devcontainer template for development.",
     "options": {
-        "projectName": {
-            "type": "string",
-            "description": "Project name",
-            "proposals": [
-                "go-project"
-            ],
-            "default": "go-project"
-        },
         "imageVariant": {
             "type": "string",
             "description": "Variant of go",
