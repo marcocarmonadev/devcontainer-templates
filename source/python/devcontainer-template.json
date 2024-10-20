@@ -8,9 +8,9 @@
             "type": "string",
             "description": "Variant of python",
             "enum": [
-                "latest",
                 "3.12",
-                "3.13"
+                "3.13",
+                "latest"
             ],
             "default": "3.12"
         }

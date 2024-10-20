@@ -8,8 +8,9 @@
             "type": "string",
             "description": "Variant of node",
             "enum": [
-                "latest",
-                "lts"
+                "lts",
+                "23",
+                "latest"
             ],
             "default": "lts"
         }

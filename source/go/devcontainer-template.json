@@ -8,7 +8,9 @@
             "type": "string",
             "description": "Variant of go",
             "enum": [
-                "latest"
+                "latest",
+                "1.23",
+                "1.22"
             ],
             "default": "latest"
         }
