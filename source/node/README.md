@@ -7,7 +7,6 @@ A node devcontainer template for development.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| projectName | Project name | string | node-project |
 | imageVariant | Variant of node | string | lts |
 
 

@@ -7,7 +7,6 @@ A python devcontainer template for development.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| projectName | Project name | string | python-project |
 | imageVariant | Variant of python | string | 3.12 |
 
 

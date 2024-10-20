@@ -7,7 +7,6 @@ A go devcontainer template for development.
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| projectName | Project name | string | go-project |
 | imageVariant | Variant of go | string | latest |
 
 
