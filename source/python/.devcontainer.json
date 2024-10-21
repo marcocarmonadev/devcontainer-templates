@@ -1,5 +1,5 @@
 {
-    "name": "Python Project",
+    "name": "Python - Project",
     "image": "ghcr.io/marcocarmonadev/devcontainers/python:${templateOption:imageVariant}",
     "runArgs": [
         "--name=python-project-devcontainer"
