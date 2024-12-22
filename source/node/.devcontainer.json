@@ -1,7 +1,7 @@
 {
-    "name": "Node - Project",
+    "name": "{project-name}",
     "image": "ghcr.io/marcocarmonadev/devcontainers/node:${templateOption:imageVariant}",
     "runArgs": [
-        "--name=node-project-devcontainer"
+        "--name={project-name}-devcontainer"
     ]
 }
