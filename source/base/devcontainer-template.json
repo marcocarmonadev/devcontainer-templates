@@ -1,8 +1,8 @@
 {
-    "id": "ubuntu",
+    "id": "base",
     "version": "1.0.0",
     "name": "ubuntu-devcontainer-template",
-    "description": "A ubuntu devcontainer template for development.",
+    "description": "A base devcontainer template for development.",
     "options": {
         "imageVariant": {
             "type": "string",
