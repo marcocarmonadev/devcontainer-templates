@@ -1,7 +1,7 @@
-# Pulling templaes
+# Templates
 
 ```
-ghcr.io/marcocarmonadev/devcontainers/go:${imageVariant}
-ghcr.io/marcocarmonadev/devcontainers/node:${imageVariant}
-ghcr.io/marcocarmonadev/devcontainers/python:${imageVariant}
+ghcr.io/marcocarmonadev/devcontainer-templates/go
+ghcr.io/marcocarmonadev/devcontainer-templates/node
+ghcr.io/marcocarmonadev/devcontainer-templates/python
 ```
