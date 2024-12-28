@@ -1,7 +1,7 @@
 {
-    "name": "{project-name}",
+    "name": "${localWorkspaceFolderBasename}",
     "image": "ghcr.io/marcocarmonadev/devcontainers/base:${templateOption:imageVariant}",
     "runArgs": [
-        "--name={project-name}-devcontainer"
+        "--name=${localWorkspaceFolderBasename}-devcontainer"
     ]
 }
