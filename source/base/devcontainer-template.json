@@ -1,17 +1,17 @@
 {
     "id": "base",
     "version": "1.0.0",
-    "name": "ubuntu-devcontainer-template",
+    "name": "debian-devcontainer-template",
     "description": "A base devcontainer template for development.",
     "options": {
         "imageVariant": {
             "type": "string",
             "description": "Variant of ubuntu",
             "enum": [
-                "24.04",
-                "20.04"
+                "bookworm",
+                "bullseye"
             ],
-            "default": "24.04"
+            "default": "bookworm"
         }
     }
 }
