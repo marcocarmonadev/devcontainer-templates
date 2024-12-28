@@ -1,6 +1,6 @@
 {
     "id": "base",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "name": "debian-devcontainer-template",
     "description": "A base devcontainer template for development.",
     "options": {
