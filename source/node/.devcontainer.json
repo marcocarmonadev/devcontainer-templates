@@ -4,5 +4,7 @@
     "runArgs": [
         "--name=${localWorkspaceFolderBasename}-devcontainer"
     ],
-    // "postStartCommand": "npm install"
+    // "postStartCommand": "npm install",
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+    "workspaceFolder": "/workspace"
 }

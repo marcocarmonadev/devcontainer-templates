@@ -3,5 +3,7 @@
     "image": "ghcr.io/marcocarmonadev/devcontainers/go:${templateOption:imageVariant}",
     "runArgs": [
         "--name=${localWorkspaceFolderBasename}-devcontainer"
-    ]
+    ],
+    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
+    "workspaceFolder": "/workspace"
 }
