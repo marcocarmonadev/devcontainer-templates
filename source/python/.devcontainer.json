@@ -4,4 +4,5 @@
     "runArgs": [
         "--name=${localWorkspaceFolderBasename}-devcontainer"
     ]
+    // "postStartCommand": "uv sync"
 }
