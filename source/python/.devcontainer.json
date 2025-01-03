@@ -3,8 +3,6 @@
     "image": "ghcr.io/marcocarmonadev/devcontainers/python:${templateOption:imageVariant}",
     "runArgs": [
         "--name=${localWorkspaceFolderBasename}-devcontainer"
-    ],
-    // "postStartCommand": "uv sync",
-    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
-    "workspaceFolder": "/workspace"
+    ]
+    // "postStartCommand": "uv sync"
 }
