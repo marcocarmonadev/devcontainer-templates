@@ -2,6 +2,7 @@
     "name": "${localWorkspaceFolderBasename}",
     "image": "ghcr.io/marcocarmonadev/devcontainers/go:${templateOption:imageVariant}",
     "runArgs": [
-        "--name=${localWorkspaceFolderBasename}-devcontainer"
+        "--name=${localWorkspaceFolderBasename}-devcontainer",
+        "--env-file=${localWorkspaceFolder}/.devcontainer/.env"
     ]
 }

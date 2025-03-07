@@ -2,7 +2,8 @@
     "name": "${localWorkspaceFolderBasename}",
     "image": "ghcr.io/marcocarmonadev/devcontainers/python:${templateOption:imageVariant}",
     "runArgs": [
-        "--name=${localWorkspaceFolderBasename}-devcontainer"
+        "--name=${localWorkspaceFolderBasename}-devcontainer",
+        "--env-file=${localWorkspaceFolder}/.devcontainer/.env"
     ]
     // "postStartCommand": "uv sync"
 }

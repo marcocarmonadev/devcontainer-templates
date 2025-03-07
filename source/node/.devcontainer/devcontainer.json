@@ -1,0 +1,9 @@
+{
+    "name": "${localWorkspaceFolderBasename}",
+    "image": "ghcr.io/marcocarmonadev/devcontainers/node:${templateOption:imageVariant}",
+    "runArgs": [
+        "--name=${localWorkspaceFolderBasename}-devcontainer",
+        "--env-file=${localWorkspaceFolder}/.devcontainer/.env"
+    ]
+    // "postStartCommand": "npm install"
+}
