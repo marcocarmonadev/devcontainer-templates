@@ -19,27 +19,6 @@ jobs:
         with:
           publish-templates: "true"
           base-path-to-templates: "./source"
-          generate-docs: "true"
+          generate-docs: "false"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Create PR for Documentation
-        id: push_image_info
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          set -e
-          echo "Start."
-
-          # Configure git and Push updates
-          git config --global user.email github-actions[bot]@users.noreply.github.com
-          git config --global user.name github-actions[bot]
-          git config pull.rebase false
-
-          # Add / update and commit
-          git add */**/README.md
-          git commit -m 'Automated documentation update' || export NO_UPDATES=true
-
-          # Push
-          if [ "$NO_UPDATES" != "true" ] ; then
-              git push origin main
-          fi
